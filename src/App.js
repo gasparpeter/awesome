@@ -5,7 +5,7 @@ import Awesome from "./Awesome";
 function App() {
   return (
     <div className="App">
-      <Awesome/>
+      <Awesome init={1}/>
     </div>
   );
 }
