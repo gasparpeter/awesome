@@ -15,7 +15,10 @@ export default (props) => {
 
     useEffect(()=> {
         console.log('Hello')
-    });
+        return () => {
+            console.log('Bye')
+        }
+    }, [counter]);
 
     return(
         <div>
